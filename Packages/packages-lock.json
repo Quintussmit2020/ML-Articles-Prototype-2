@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.magicleap.soundfield": {
+      "version": "file:C:/Users/quint/MagicLeap/tools/unity/msa/v3.2.2-221122.61.6551f4e_1.1.0-dev2",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.magicleap.unitysdk": {
       "version": "file:C:/Users/quint/MagicLeap/tools/unity/v1.1.0-dev1/com.magicleap.unitysdk.tgz",
       "depth": 0,
