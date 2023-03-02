@@ -45,12 +45,16 @@ public class MarkerTracking : MonoBehaviour
     }
     private void Start()
     {
-        // A value of 0 uses the world cameras and 1 uses the RGB camera to scan for markers
-        // by default markers will be tracked with the world cameras.
-        int arucoCamera = 0;
-        MLMarkerTracker.Settings trackerSettings = MLMarkerTracker.Settings.Create(
-            true, Type, QrCodeMarkerSize, ArucoDict, ArucoMarkerSize, arucoCamera);
+        if(!MLPermissions.CheckPermission(MLPermission.MarkerTracking).IsOk)
+        {
+            Debug.LogError("Cannot start marker tracker." + MLPermission.MarkerTracking +" permission not found in manifest.");
+            this.enabled = false;
+            return;
+        }
+        MLMarkerTracker.TrackerSettings trackerSettings = MLMarkerTracker.TrackerSettings.Create(
+            true, Type, QrCodeMarkerSize, ArucoDict, ArucoMarkerSize, MLMarkerTracker.Profile.Default);
         _ = MLMarkerTracker.SetSettingsAsync(trackerSettings);
+
         Debug.Log("Start tracking");
 
 
