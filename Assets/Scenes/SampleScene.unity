@@ -129,7 +129,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1547687286}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &207147540
+--- !u!1 &219296780
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,52 +137,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 207147541}
-  - component: {fileID: 207147542}
+  - component: {fileID: 219296781}
   m_Layer: 0
-  m_Name: Right Hand Visualizer
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &207147541
+--- !u!4 &219296781
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207147540}
+  m_GameObject: {fileID: 219296780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1375737370}
+  m_Father: {fileID: 674978050}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &207147542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207147540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaaeea8d3016e5d489d37807d3f7a247, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _handType: 1
-  _center: {fileID: 207147541}
-  _pinkyColor: {r: 0, g: 1, b: 1, a: 1}
-  _ringColor: {r: 1, g: 0, b: 0, a: 1}
-  _middleColor: {r: 0, g: 0, b: 1, a: 1}
-  _indexColor: {r: 1, g: 0, b: 1, a: 1}
-  _thumbColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  _wristColor: {r: 1, g: 1, b: 1, a: 1}
-  keypointMaterial: {fileID: 2100000, guid: caf55057628a8b64c9ccf61999298e2b, type: 2}
-  confidenceThreshold: 0.753
 --- !u!1 &376495069
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +389,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 219296781}
   - {fileID: 845719446}
   - {fileID: 1375737370}
   - {fileID: 773190231}
@@ -524,6 +502,7 @@ GameObject:
   - component: {fileID: 845719449}
   - component: {fileID: 845719448}
   - component: {fileID: 845719447}
+  - component: {fileID: 845719450}
   m_Layer: 0
   m_Name: Left XRI Hand Controller
   m_TagString: Untagged
@@ -709,9 +688,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 871263447}
-  - {fileID: 1287594317}
+  m_Children: []
   m_Father: {fileID: 674978050}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1027,56 +1004,23 @@ MonoBehaviour:
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
   m_AllowAnchorControl: 1
-  m_UseForceGrab: 1
+  m_UseForceGrab: 0
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
---- !u!1 &871263446
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 871263447}
-  - component: {fileID: 871263448}
-  m_Layer: 0
-  m_Name: Left Hand Visualizer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &871263447
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871263446}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 845719446}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &871263448
+--- !u!114 &845719450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871263446}
+  m_GameObject: {fileID: 845719444}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaaeea8d3016e5d489d37807d3f7a247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _handType: 0
-  _center: {fileID: 871263447}
   _pinkyColor: {r: 0, g: 1, b: 1, a: 1}
   _ringColor: {r: 1, g: 0, b: 0, a: 1}
   _middleColor: {r: 0, g: 0, b: 1, a: 1}
@@ -1201,89 +1145,6 @@ Transform:
   m_Father: {fileID: 1636572262}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1287594316
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1287594317}
-  - component: {fileID: 1287594319}
-  - component: {fileID: 1287594318}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1287594317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287594316}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 845719446}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1287594318
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287594316}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1287594319
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287594316}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1291450306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1244,7 @@ GameObject:
   - component: {fileID: 1375737373}
   - component: {fileID: 1375737372}
   - component: {fileID: 1375737371}
+  - component: {fileID: 1375737374}
   m_Layer: 0
   m_Name: Right XRI Hand Controller
   m_TagString: Untagged
@@ -1568,8 +1430,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 207147541}
+  m_Children: []
   m_Father: {fileID: 674978050}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1677,7 +1538,7 @@ MonoBehaviour:
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
   m_AllowAnchorControl: 1
-  m_UseForceGrab: 1
+  m_UseForceGrab: 0
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
@@ -1889,6 +1750,27 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &1375737374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375737368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaaeea8d3016e5d489d37807d3f7a247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _handType: 1
+  _pinkyColor: {r: 0, g: 1, b: 1, a: 1}
+  _ringColor: {r: 1, g: 0, b: 0, a: 1}
+  _middleColor: {r: 0, g: 0, b: 1, a: 1}
+  _indexColor: {r: 1, g: 0, b: 1, a: 1}
+  _thumbColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _wristColor: {r: 1, g: 1, b: 1, a: 1}
+  keypointMaterial: {fileID: 2100000, guid: caf55057628a8b64c9ccf61999298e2b, type: 2}
+  confidenceThreshold: 0.753
 --- !u!1 &1523101408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,12 +1847,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546513616}
-  m_LocalRotation: {x: -0.00000016391276, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.058365107, y: -0.20490302, z: 0.31426245}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0000006407499, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.029182553, y: -0.10245136, z: 0.15713133}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1964602098}
+  m_Father: {fileID: 1636572262}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1546513618
@@ -2007,7 +1889,7 @@ MonoBehaviour:
         label: 
     minDistance:
       _propertyName: minDistance
-      _value: 0.1
+      _value: 1
       _propertyDefinition:
         defaultValue: 1
         min: 0
@@ -2018,7 +1900,7 @@ MonoBehaviour:
         label: 
     maxDistance:
       _propertyName: maxDistance
-      _value: 5
+      _value: 250
       _propertyDefinition:
         defaultValue: 250
         min: 0
@@ -2046,7 +1928,7 @@ MonoBehaviour:
   radiationProperties:
     omnidirectional:
       _propertyName: omnidirectional
-      _value: 0
+      _value: 1
       _propertyDefinition:
         defaultValue: 0
         min: 0
@@ -2121,7 +2003,7 @@ MonoBehaviour:
   obstructionOverride:
     main:
       _propertyName: main
-      _value: 0
+      _value: 1
       _propertyDefinition:
         defaultValue: 0
         min: 0
@@ -2130,7 +2012,7 @@ MonoBehaviour:
         label: Main
     lf:
       _propertyName: lf
-      _value: 0
+      _value: 1
       _propertyDefinition:
         defaultValue: 0
         min: 0
@@ -2139,7 +2021,7 @@ MonoBehaviour:
         label: LF
     mf:
       _propertyName: mf
-      _value: 0
+      _value: 1
       _propertyDefinition:
         defaultValue: 0
         min: 0
@@ -2148,7 +2030,7 @@ MonoBehaviour:
         label: MF
     hf:
       _propertyName: hf
-      _value: 0
+      _value: 1
       _propertyDefinition:
         defaultValue: 0
         min: 0
@@ -2303,13 +2185,13 @@ MonoBehaviour:
         max: 1
         tooltip: Reverb-path relative gain offset for high frequencies.
         label: HF
-  enableObstructions: 1
+  enableObstructions: 0
   cachedObstructionOverrides:
     main: 0
     lf: 0
     mf: 0
     hf: 0
-  obstructionOverridesAreCached: 0
+  obstructionOverridesAreCached: 1
 --- !u!82 &1546513619
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2320,7 +2202,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a54337c14c4f04f748be561ba3b740d8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 404b0c67e768d064b8a396b551fa501a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2414,6 +2296,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5589497132288526105, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+        type: 3}
+      propertyPath: m_UseForceGrab
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589497133034083132, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5589497133593145648, guid: fe799b2d0a84dfe43b001b56276fd2fb,
         type: 3}
       propertyPath: m_RootOrder
@@ -2608,7 +2500,7 @@ MonoBehaviour:
     gain:
       main:
         _propertyName: main
-        _value: 0.25
+        _value: 0.24999999
         _propertyDefinition:
           defaultValue: 0.25
           min: 0
@@ -2730,10 +2622,10 @@ MonoBehaviour:
         tooltip: Relative decay time multiplying factor for high frequencies of fallback
           reverb used when none is otherwise specified
         label: Decay Time HF Ratio
-  enableIndirectObstructions: 1
+  enableIndirectObstructions: 0
   enableAcousticMap:
     _propertyName: enableAcousticMap
-    _value: 1
+    _value: 0
     _propertyDefinition:
       defaultValue: 0
       min: 0
@@ -2768,7 +2660,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1546513617}
   - {fileID: 1636572262}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -3071,6 +2962,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1001751906}
+    - targetCorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1546513617}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}

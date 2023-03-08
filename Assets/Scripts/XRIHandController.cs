@@ -69,7 +69,6 @@ public class XRIHandController : ActionBasedController
         base.UpdateTrackingInput(controllerState);
 
         var pose = UpdateHandRay();
-
         controllerState.position = pose.position;
         controllerState.rotation = pose.rotation;
         controllerState.inputTrackingState = InputTrackingState.Position | InputTrackingState.Rotation;
@@ -86,7 +85,7 @@ public class XRIHandController : ActionBasedController
             hand.TryGetFingerBones(UnityEngine.XR.HandFinger.Pinky, this._pinkyFingerBones);
             hand.TryGetFingerBones(UnityEngine.XR.HandFinger.Thumb, this._thumbBones);
 
-            _indexFingerBones[_indexFingerBones.Count - 1].TryGetPosition(out Vector3 indexPosition);
+            _indexFingerBones[_indexFingerBones.Count - 2].TryGetPosition(out Vector3 indexPosition);
             rayPose.position = indexPosition;
 
             handDevice.TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion deviceRotation);
