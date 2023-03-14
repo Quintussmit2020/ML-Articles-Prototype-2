@@ -1242,7 +1242,7 @@ struct Action_2_tDA74CED516153CD7F42CADEB337C93F4AFDC8DDD;
 struct Action_2_t15D6234343A6C232F6E9C1563A9666FD379F4A1B;
 struct Action_2_t0F28FD6DF12DE3C0C0A3C8670D6FF563CB91D7DE;
 struct Action_2_tA4CC875AD1B535E16B296C7E63CA2647BA2009C9;
-struct Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681;
+struct Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1;
 struct Action_2_t02809C02F64A82E1585AA32C884FD0C9E63F5D32;
 struct Action_2_tA2B34191B653D7EE78B5EC5B1D6C282F6D1FA309;
 struct Action_2_tED9DB0E443DEAD9A4CC90B1DCB7064F5D0B7004E;
@@ -1265,7 +1265,7 @@ struct Action_3_t19AA10962A460F486AFFD14036F0E510F920256C;
 struct Action_3_t7BFFCA7B6CC81D586CF54B1CF82144656676E366;
 struct Action_3_tCCFA6962A64DDFF2C61E44FBA25EF93CCC3F20CF;
 struct Action_3_t838D6B6BB4BFFC6E8430C389747DB008A0B26146;
-struct Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364;
+struct Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55;
 struct Action_4_tEDE2F4136308461AABC88EB84052E02ED2F9C8DB;
 struct Action_4_t595C7D13B665306D3E501CAF580759041B0C8171;
 struct Action_4_t6CEEB0D44B0B8BF2ADA36A44186B13F262FF63AC;
@@ -1376,7 +1376,7 @@ struct VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2
 struct VisualElementU5BU5D_tCAE8038767BF0FBEE26B3470C0FC4AE60E5229DF;
 struct OngoingAccountSelectionU5BU5D_t0CC84AB78BA7B45022C3D6E08B0DADA7A61BCBD8;
 struct UserDataU5BU5D_t5CB4987877C71E61FA131704B58CA6D8E5272C7E;
-struct PlaneInfoU5BU5D_t519F59130DD514B9B3EF1F450646BDA2250FACB0;
+struct PlaneInfoU5BU5D_tF417E28AAC2E9569923D546B1C74C8FA8F804B4B;
 struct MLUUIDU5BU5D_t7EB5454E10C0CC3E1B7D34906CAFE1A8CC7002F8;
 struct CaptionPACU5BU5D_tF0E08F8E0D19F9FB665BAC2D700CD0ED3684F8F9;
 struct CaptionStyleColorU5BU5D_t6BC1F4C793CAFC00E377341EC5CAC2B51C284FE2;
@@ -1460,8 +1460,8 @@ struct Key_tA608339DFBE2DA2963F267AA08AB8DAEBA72975B_marshaled_pinvoke;
 struct MLMediaPlayerPSSHEntry_t2B5A290DB66F9B1D7278BE2966A4AACAC2EE3DF7;
 struct MLUUID_tE8E69D6CF117D8C51E66C7BEB834AAA776FFF5E9;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com;
-struct PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_com;
-struct PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_pinvoke;
+struct PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_com;
+struct PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_pinvoke;
 struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_marshaled_com;
 struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_marshaled_pinvoke;
 struct UserData_t0F7AA24AC638FDFB7CF552415A75CAE057C2D42C_marshaled_com;
@@ -3103,19 +3103,19 @@ struct OngoingAccountSelection_t8471F20105109B19CE04657B1C72EB8D23976956_marshal
 	uint32_t ___userId_1;
 };
 
-struct CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 
+struct CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 
 {
-	PlaneInfoU5BU5D_t519F59130DD514B9B3EF1F450646BDA2250FACB0* ___Planes_0;
+	PlaneInfoU5BU5D_tF417E28AAC2E9569923D546B1C74C8FA8F804B4B* ___Planes_0;
 	int32_t ___Format_1;
 };
-struct CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446_marshaled_pinvoke
+struct CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399_marshaled_pinvoke
 {
-	PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_pinvoke* ___Planes_0;
+	PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_pinvoke* ___Planes_0;
 	int32_t ___Format_1;
 };
-struct CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446_marshaled_com
+struct CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399_marshaled_com
 {
-	PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_com* ___Planes_0;
+	PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_com* ___Planes_0;
 	int32_t ___Format_1;
 };
 
@@ -4524,7 +4524,7 @@ struct LightMeshVertex_t5E886C7928458EB522BEB49D43C67ACC09EC7DCB_StaticFields
 	VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___VertexLayout_3;
 };
 
-struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B 
+struct IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A 
 {
 	uint32_t ___Width_0;
 	uint32_t ___Height_1;
@@ -4533,7 +4533,7 @@ struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B
 	float ___FOV_4;
 	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___Distortion_5;
 };
-struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B_marshaled_pinvoke
+struct IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A_marshaled_pinvoke
 {
 	uint32_t ___Width_0;
 	uint32_t ___Height_1;
@@ -4542,7 +4542,7 @@ struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B_
 	float ___FOV_4;
 	Il2CppSafeArray* ___Distortion_5;
 };
-struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B_marshaled_com
+struct IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A_marshaled_com
 {
 	uint32_t ___Width_0;
 	uint32_t ___Height_1;
@@ -4998,10 +4998,10 @@ struct AlignOfHelper_1_t9406BFE1111E7C45F4676ABD1F09D2147834A0DF
 	MLPlane_t46129BD551224D2EFE23A15C3A82EA0E5EEBB430 ___data_1;
 };
 
-struct Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD 
+struct Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 
 {
 	bool ___hasValue_0;
-	IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B ___value_1;
+	IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A ___value_1;
 };
 
 struct StyleData_t3B1A6B72F05D82EBAA8C993A00C9CEBEB1CAFC91 
@@ -6039,30 +6039,30 @@ struct TrackedDeviceModel_t38B1BA171F5602138D487005E134580213B4DBE8_marshaled_co
 	float ___m_MaxRaycastDistance_13;
 };
 
-struct ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA 
+struct ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 
 {
 	int64_t ___FrameNumber_0;
 	MLTime_t21DC48B1883458CA7A85FD9DDF8A217EC9559DCB* ___VCamTimestamp_1;
-	Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD ___Intrinsics_2;
+	Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 ___Intrinsics_2;
 };
-struct ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA_marshaled_pinvoke
+struct ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22_marshaled_pinvoke
 {
 	int64_t ___FrameNumber_0;
 	MLTime_t21DC48B1883458CA7A85FD9DDF8A217EC9559DCB* ___VCamTimestamp_1;
-	Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD ___Intrinsics_2;
+	Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 ___Intrinsics_2;
 };
-struct ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA_marshaled_com
+struct ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22_marshaled_com
 {
 	int64_t ___FrameNumber_0;
 	MLTime_t21DC48B1883458CA7A85FD9DDF8A217EC9559DCB* ___VCamTimestamp_1;
-	Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD ___Intrinsics_2;
+	Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 ___Intrinsics_2;
 };
 
 struct Action_2_t0601EE14ACAFAFAA95A833ECA50F58B662F7A996  : public MulticastDelegate_t
 {
 };
 
-struct Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681  : public MulticastDelegate_t
+struct Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1  : public MulticastDelegate_t
 {
 };
 
@@ -6074,7 +6074,7 @@ struct Action_3_t7BFFCA7B6CC81D586CF54B1CF82144656676E366  : public MulticastDel
 {
 };
 
-struct Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364  : public MulticastDelegate_t
+struct Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55  : public MulticastDelegate_t
 {
 };
 
@@ -14150,49 +14150,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2_Invoke_m0796EB43ABA08E534F3853A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_Multicast(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_Multicast(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
 	for (il2cpp_array_size_t i = 0; i < length; i++)
 	{
-		Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* currentDelegate = reinterpret_cast<Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, const RuntimeMethod*);
+		Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* currentDelegate = reinterpret_cast<Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, const RuntimeMethod*);
 		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenInst(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenInst(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
 	NullCheck(___arg10);
-	typedef void (*FunctionPointerType) (RuntimeObject*, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (RuntimeObject*, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr_0)(___arg10, ___arg21, method);
 }
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenStatic(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenStatic(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
-	typedef void (*FunctionPointerType) (RuntimeObject*, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (RuntimeObject*, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr_0)(___arg10, ___arg21, method);
 }
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenVirtual(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenVirtual(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
 	NullCheck(___arg10);
-	VirtualActionInvoker1< ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA >::Invoke(il2cpp_codegen_method_get_slot(method), ___arg10, ___arg21);
+	VirtualActionInvoker1< ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 >::Invoke(il2cpp_codegen_method_get_slot(method), ___arg10, ___arg21);
 }
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenInterface(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenInterface(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
 	NullCheck(___arg10);
-	InterfaceActionInvoker1< ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA >::Invoke(il2cpp_codegen_method_get_slot(method), il2cpp_codegen_method_get_declaring_type(method), ___arg10, ___arg21);
+	InterfaceActionInvoker1< ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 >::Invoke(il2cpp_codegen_method_get_slot(method), il2cpp_codegen_method_get_declaring_type(method), ___arg10, ___arg21);
 }
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenGenericVirtual(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenGenericVirtual(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
 	NullCheck(___arg10);
-	GenericVirtualActionInvoker1< ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA >::Invoke(method, ___arg10, ___arg21);
+	GenericVirtualActionInvoker1< ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 >::Invoke(method, ___arg10, ___arg21);
 }
-void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenGenericInterface(Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method)
+void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenGenericInterface(Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method)
 {
 	NullCheck(___arg10);
-	GenericInterfaceActionInvoker1< ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA >::Invoke(method, ___arg10, ___arg21);
+	GenericInterfaceActionInvoker1< ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 >::Invoke(method, ___arg10, ___arg21);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m702A1C0797297854EFBE0CB58AD778C2A255C423_gshared (Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m8408001DDE50C5FFF5FA4CF13F79EC2BE606D659_gshared (Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
 {
 	__this->___method_ptr_0 = il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1);
 	__this->___method_3 = ___method1;
@@ -14204,7 +14204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m702A1C0797297854EFBE0CB5
 	{
 		bool isOpen = parameterCount == 2;
 		if (isOpen)
-			__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenStatic;
+			__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenStatic;
 		else
 			{
 				__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
@@ -14220,18 +14220,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m702A1C0797297854EFBE0CB5
 			{
 				if (il2cpp_codegen_method_is_generic_instance_method((RuntimeMethod*)___method1))
 					if (il2cpp_codegen_method_is_interface_method((RuntimeMethod*)___method1))
-						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenGenericInterface;
+						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenGenericInterface;
 					else
-						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenGenericVirtual;
+						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenGenericVirtual;
 				else
 					if (il2cpp_codegen_method_is_interface_method((RuntimeMethod*)___method1))
-						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenInterface;
+						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenInterface;
 					else
-						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenVirtual;
+						__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenVirtual;
 			}
 			else
 			{
-				__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_OpenInst;
+				__this->___invoke_impl_1 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_OpenInst;
 			}
 		}
 		else
@@ -14242,11 +14242,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m702A1C0797297854EFBE0CB5
 			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 		}
 	}
-	__this->___extra_arg_5 = (intptr_t)&Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_Multicast;
+	__this->___extra_arg_5 = (intptr_t)&Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_Multicast;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2_Invoke_mF24EFE59B5E88B7A963F4AFB77F3FBCE796F3AF8_gshared (Action_2_tA4DB731478A9B1CC663278C1EE1E8D77F15E8681* __this, RuntimeObject* ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2_Invoke_mEA492C7D7E8EB6205DF6FAB6362F0FBF869A88C6_gshared (Action_2_tA6251DB49E65EACC09C91D50BCD0D965E145D7C1* __this, RuntimeObject* ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, const RuntimeMethod* method) 
 {
-	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__
@@ -16148,28 +16148,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3_Invoke_m20DB96A6E4363A11EE736FB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void Action_3_Invoke_m44239CCB8415CDF3CCA654B34E8318EB5B318DBA_Multicast(Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364* __this, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method)
+void Action_3_Invoke_mAB974583D1583A9F805B9639054187A6AC14D49F_Multicast(Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55* __this, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
 	for (il2cpp_array_size_t i = 0; i < length; i++)
 	{
-		Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364* currentDelegate = reinterpret_cast<Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, RuntimeObject*, const RuntimeMethod*);
+		Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55* currentDelegate = reinterpret_cast<Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, RuntimeObject*, const RuntimeMethod*);
 		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void Action_3_Invoke_m44239CCB8415CDF3CCA654B34E8318EB5B318DBA_OpenInst(Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364* __this, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method)
+void Action_3_Invoke_mAB974583D1583A9F805B9639054187A6AC14D49F_OpenInst(Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55* __this, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method)
 {
-	typedef void (*FunctionPointerType) (CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, RuntimeObject*, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr_0)(___arg10, ___arg21, ___arg32, method);
 }
-void Action_3_Invoke_m44239CCB8415CDF3CCA654B34E8318EB5B318DBA_OpenStatic(Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364* __this, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method)
+void Action_3_Invoke_mAB974583D1583A9F805B9639054187A6AC14D49F_OpenStatic(Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55* __this, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method)
 {
-	typedef void (*FunctionPointerType) (CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, RuntimeObject*, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr_0)(___arg10, ___arg21, ___arg32, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mCDCDCB35279FEEB725A613EBC7F3E732105D3335_gshared (Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_m7313ED609B70ED37796D425EBC94938440084DA9_gshared (Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
 {
 	__this->___method_ptr_0 = il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1);
 	__this->___method_3 = ___method1;
@@ -16181,7 +16181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mCDCDCB35279FEEB725A613EB
 	{
 		bool isOpen = parameterCount == 3;
 		if (isOpen)
-			__this->___invoke_impl_1 = (intptr_t)&Action_3_Invoke_m44239CCB8415CDF3CCA654B34E8318EB5B318DBA_OpenStatic;
+			__this->___invoke_impl_1 = (intptr_t)&Action_3_Invoke_mAB974583D1583A9F805B9639054187A6AC14D49F_OpenStatic;
 		else
 			{
 				__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
@@ -16195,11 +16195,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mCDCDCB35279FEEB725A613EB
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
-	__this->___extra_arg_5 = (intptr_t)&Action_3_Invoke_m44239CCB8415CDF3CCA654B34E8318EB5B318DBA_Multicast;
+	__this->___extra_arg_5 = (intptr_t)&Action_3_Invoke_mAB974583D1583A9F805B9639054187A6AC14D49F_Multicast;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3_Invoke_m44239CCB8415CDF3CCA654B34E8318EB5B318DBA_gshared (Action_3_tC015D8E136C30683897C5AEFEB02DBD0B061A364* __this, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 ___arg10, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3_Invoke_mAB974583D1583A9F805B9639054187A6AC14D49F_gshared (Action_3_t9426F47987D0475C25CD42FEB90377D790FBEF55* __this, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 ___arg10, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method) 
 {
-	typedef void (*FunctionPointerType) (RuntimeObject*, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA, RuntimeObject*, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (RuntimeObject*, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__

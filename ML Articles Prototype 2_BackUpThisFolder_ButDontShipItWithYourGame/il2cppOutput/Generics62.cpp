@@ -475,6 +475,7 @@ struct OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C;
 struct OnFocusEventDelegate_t06FF7D2EF075A819935AD1E3F182BA22FD7CF94B;
 struct OnPauseEventDelegate_t03FC456BBBBAE8AC1182AB19D69B67AD7B3EB5F5;
 struct OnUpdateEventDelegate_t9084C2299102B4AB46D8F473FF09B1087900C74F;
+struct CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96;
 struct CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1;
 struct TypeData_t01D670B4E71B5571B38C7412B1E652A47D6AF66A;
 
@@ -483,6 +484,7 @@ IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E
 IL2CPP_EXTERN_C RuntimeClass* ArrayPoolEventSource_tDB6CA549DFC2FBEB134C71EB85DBD6D943E5C888_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArrayTypeMismatchException_t95F1723A5A166E62D3FBEF9734DEFBF61594F8F1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t1C6C35FE3BD843A49BCC7207DB9430A01CC1537E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_il2cpp_TypeInfo_var;
@@ -2488,6 +2490,10 @@ struct OnUpdateEventDelegate_t9084C2299102B4AB46D8F473FF09B1087900C74F  : public
 {
 };
 
+struct CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96  : public MulticastDelegate_t
+{
+};
+
 struct MouseCaptureEventBase_1_t2269B9348BF179ADBDBBCE25ADF5E431A05DD5A8  : public PointerCaptureEventBase_1_t265201C952224C804DDA3B4C56A4CA46B8A665CC
 {
 };
@@ -3374,6 +3380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LowLevelList_1_RemoveAt_m14CF4D511C0CCCE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Predicate_1_Invoke_m6AC449189DCEE89A4FA2A2B724DE296A1DFB6A9B_gshared_inline (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StartInternal_mE1D62DE39D82260CDDF2A1F3C59EDC97E4E21670_gshared (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StopInternal_mBAA114098F7069293606A090AD65659D2676FE0F_gshared (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_set_IsStarted_m40C69D9528AC71EDACB1BF6D2C81FED2B2AE39B8_gshared_inline (bool ___value0, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MLAutoAPISingleton_1_get_IsStarted_m47A9C7BF808E5F525389FB417971681B68E7AC35_gshared_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLLazySingleton_1__ctor_mC0C93555BC84AE5D84C4F573E105838A838B1E9F_gshared (MLLazySingleton_1_t4C07FB8F64B6AF180273BEFE9161A3DFD94C99CD* __this, const RuntimeMethod* method) ;
@@ -4277,6 +4284,12 @@ inline RuntimeObject* MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A
 inline void MLAutoAPISingleton_1_StartInternal_mE1D62DE39D82260CDDF2A1F3C59EDC97E4E21670 (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8* __this, const RuntimeMethod* method)
 {
 	((  void (*) (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8*, const RuntimeMethod*))MLAutoAPISingleton_1_StartInternal_mE1D62DE39D82260CDDF2A1F3C59EDC97E4E21670_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallOnPerceptionShutdownDelegate__ctor_mD8B17BB6FA7461BCE3D7C90DE0C487BBCF8A88ED (CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagicLeapXrProviderNativeBindings_InputSetOnPerceptionShutdownCallback_mE0E42929D3DEFB3F568FD70BD5153F6273FBB609 (CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96* ___createOnPerceptionShutdown0, const RuntimeMethod* method) ;
+inline void MLAutoAPISingleton_1_StopInternal_mBAA114098F7069293606A090AD65659D2676FE0F (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8* __this, const RuntimeMethod* method)
+{
+	((  void (*) (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8*, const RuntimeMethod*))MLAutoAPISingleton_1_StopInternal_mBAA114098F7069293606A090AD65659D2676FE0F_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLPluginLog_Debug_mF81628C103FD1DDAF0BADB4B4C610E0F30A4C8D6 (RuntimeObject* ___logMsg0, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
@@ -20706,6 +20719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_Initialize_mAD83CF6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MLPluginLog_tE1B7863BDE0C8AD70380B3B5EBCCF65EC6BD48A7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral400E123EA088831CB120A7FE2D1BF19DB0BF1E72);
@@ -20750,6 +20764,9 @@ IL_0032:
 		L_6 = MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6(il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		NullCheck((MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8*)L_6);
 		MLAutoAPISingleton_1_StartInternal_mE1D62DE39D82260CDDF2A1F3C59EDC97E4E21670((MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8*)L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96* L_7 = (CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96*)il2cpp_codegen_object_new(CallOnPerceptionShutdownDelegate_tA604A05E9C0E8AF222052F12F56B145E10088C96_il2cpp_TypeInfo_var);
+		CallOnPerceptionShutdownDelegate__ctor_mD8B17BB6FA7461BCE3D7C90DE0C487BBCF8A88ED(L_7, NULL, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 7)), NULL);
+		MagicLeapXrProviderNativeBindings_InputSetOnPerceptionShutdownCallback_mE0E42929D3DEFB3F568FD70BD5153F6273FBB609(L_7, NULL);
 		return;
 	}
 }
@@ -20806,6 +20823,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_OnDeviceActive_m2DE
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_OnPerceptionShutdown_mBF8F6B7AC774BCF4AD0E86A78AF6D8E594F5F4CA_gshared (const RuntimeMethod* method) 
+{
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		RuntimeObject* L_0;
+		L_0 = MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		NullCheck((MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8*)L_0);
+		MLAutoAPISingleton_1_StopInternal_mBAA114098F7069293606A090AD65659D2676FE0F((MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8*)L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StartInternal_mE1D62DE39D82260CDDF2A1F3C59EDC97E4E21670_gshared (MLAutoAPISingleton_1_t84E8AFD7D533C11EB9CA13DE86F899CD782D17B8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20854,7 +20882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StartInternal_mE1D6
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		MLAutoAPISingleton_1_set_IsStarted_m40C69D9528AC71EDACB1BF6D2C81FED2B2AE39B8_inline((bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
+		MLAutoAPISingleton_1_set_IsStarted_m40C69D9528AC71EDACB1BF6D2C81FED2B2AE39B8_inline((bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		RuntimeObject* L_10;
 		L_10 = MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6(il2cpp_rgctx_method(method->klass->rgctx_data, 4));
@@ -20877,7 +20905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StartInternal_mE1D6
 		RuntimeObject* L_19;
 		L_19 = MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6(il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C* L_20 = (OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C*)il2cpp_codegen_object_new(OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C_il2cpp_TypeInfo_var);
-		OnDestroyEventDelegate__ctor_m0BA83B7186D32682C35E82FCF9752A0198EC6374(L_20, L_19, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 12)), NULL);
+		OnDestroyEventDelegate__ctor_m0BA83B7186D32682C35E82FCF9752A0198EC6374(L_20, L_19, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 8)), NULL);
 		MLDevice_RegisterDestroy_mAEF12969E1CE80206C30654CDBCF02474DD6E58A(L_20, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_21 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20915,7 +20943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StopInternal_mBAA11
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
 		bool L_0;
-		L_0 = MLAutoAPISingleton_1_get_IsStarted_m47A9C7BF808E5F525389FB417971681B68E7AC35_inline(il2cpp_rgctx_method(method->klass->rgctx_data, 13));
+		L_0 = MLAutoAPISingleton_1_get_IsStarted_m47A9C7BF808E5F525389FB417971681B68E7AC35_inline(il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		if (!L_0)
 		{
 			goto IL_00ca;
@@ -20944,7 +20972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StopInternal_mBAA11
 		RuntimeObject* L_10;
 		L_10 = MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6(il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C* L_11 = (OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C*)il2cpp_codegen_object_new(OnDestroyEventDelegate_t53E3F1B0BE29B3111A4890030A67324726700D3C_il2cpp_TypeInfo_var);
-		OnDestroyEventDelegate__ctor_m0BA83B7186D32682C35E82FCF9752A0198EC6374(L_11, L_10, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 12)), NULL);
+		OnDestroyEventDelegate__ctor_m0BA83B7186D32682C35E82FCF9752A0198EC6374(L_11, L_10, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 8)), NULL);
 		MLDevice_UnregisterDestroy_m791CCBDC38B8FF8BD7D24DAE1B5EBE861CDE1D7F(L_11, NULL);
 		RuntimeObject* L_12;
 		L_12 = MLLazySingleton_1_get_Instance_mAA52BF11A19DA16C9F81238B8A136AE5DCC5EBB6(il2cpp_rgctx_method(method->klass->rgctx_data, 4));
@@ -20984,7 +21012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1_StopInternal_mBAA11
 IL_00c4:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		MLAutoAPISingleton_1_set_IsStarted_m40C69D9528AC71EDACB1BF6D2C81FED2B2AE39B8_inline((bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
+		MLAutoAPISingleton_1_set_IsStarted_m40C69D9528AC71EDACB1BF6D2C81FED2B2AE39B8_inline((bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
 	}
 
 IL_00ca:
@@ -21021,7 +21049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLAutoAPISingleton_1__ctor_m47F97C9DC801
 		__this->___DllNotFoundError_5 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DllNotFoundError_5), (void*)L_4);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
-		MLLazySingleton_1__ctor_mC0C93555BC84AE5D84C4F573E105838A838B1E9F((MLLazySingleton_1_t4C07FB8F64B6AF180273BEFE9161A3DFD94C99CD*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		MLLazySingleton_1__ctor_mC0C93555BC84AE5D84C4F573E105838A838B1E9F((MLLazySingleton_1_t4C07FB8F64B6AF180273BEFE9161A3DFD94C99CD*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		return;
 	}
 }

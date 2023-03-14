@@ -95,7 +95,7 @@ struct DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE;
 struct OngoingAccountSelectionU5BU5D_t0CC84AB78BA7B45022C3D6E08B0DADA7A61BCBD8;
 struct UserDataU5BU5D_t5CB4987877C71E61FA131704B58CA6D8E5272C7E;
 struct AnchorU5BU5D_tE03156678CA5451D3D5E0973296471F8523654F4;
-struct PlaneInfoU5BU5D_t519F59130DD514B9B3EF1F450646BDA2250FACB0;
+struct PlaneInfoU5BU5D_tF417E28AAC2E9569923D546B1C74C8FA8F804B4B;
 struct MLUUIDU5BU5D_t7EB5454E10C0CC3E1B7D34906CAFE1A8CC7002F8;
 struct CaptionPACU5BU5D_tF0E08F8E0D19F9FB665BAC2D700CD0ED3684F8F9;
 struct CaptionStyleColorU5BU5D_t6BC1F4C793CAFC00E377341EC5CAC2B51C284FE2;
@@ -199,8 +199,8 @@ struct Key_tA608339DFBE2DA2963F267AA08AB8DAEBA72975B_marshaled_pinvoke;
 struct MLMediaPlayerPSSHEntry_t2B5A290DB66F9B1D7278BE2966A4AACAC2EE3DF7;
 struct MLUUID_tE8E69D6CF117D8C51E66C7BEB834AAA776FFF5E9;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com;
-struct PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_com;
-struct PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_pinvoke;
+struct PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_com;
+struct PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_pinvoke;
 struct ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0;
 struct StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D;
 struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_marshaled_com;
@@ -3908,23 +3908,23 @@ struct BufferFormat_tC2A0FA5B55A45B77ABFA95065A249DDFDDA0BC69
 	uint32_t ___U3CChannelFormatU3Ek__BackingField_5;
 };
 
-struct CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 
+struct CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 
 {
-	PlaneInfoU5BU5D_t519F59130DD514B9B3EF1F450646BDA2250FACB0* ___Planes_0;
+	PlaneInfoU5BU5D_tF417E28AAC2E9569923D546B1C74C8FA8F804B4B* ___Planes_0;
 	int32_t ___Format_1;
 };
-struct CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446_marshaled_pinvoke
+struct CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399_marshaled_pinvoke
 {
-	PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_pinvoke* ___Planes_0;
+	PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_pinvoke* ___Planes_0;
 	int32_t ___Format_1;
 };
-struct CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446_marshaled_com
+struct CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399_marshaled_com
 {
-	PlaneInfo_t6719F91A879431E5E124907620FEA95F5AE2149E_marshaled_com* ___Planes_0;
+	PlaneInfo_tF086FCCB1773F8EF0355AF0E65784F33F0687AB9_marshaled_com* ___Planes_0;
 	int32_t ___Format_1;
 };
 
-struct StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 
+struct StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 
 {
 	int32_t ___CaptureType_0;
 	int32_t ___Width_1;
@@ -6947,7 +6947,7 @@ struct Buffer_tDD533DFFFDE1EAD35D2F9331EA7B0AD99FD9F8A0_marshaled_com
 	BufferFormat_tC2A0FA5B55A45B77ABFA95065A249DDFDDA0BC69 ___Format_3;
 };
 
-struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B 
+struct IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A 
 {
 	uint32_t ___Width_0;
 	uint32_t ___Height_1;
@@ -6956,7 +6956,7 @@ struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B
 	float ___FOV_4;
 	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___Distortion_5;
 };
-struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B_marshaled_pinvoke
+struct IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A_marshaled_pinvoke
 {
 	uint32_t ___Width_0;
 	uint32_t ___Height_1;
@@ -6965,7 +6965,7 @@ struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B_
 	float ___FOV_4;
 	Il2CppSafeArray* ___Distortion_5;
 };
-struct IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B_marshaled_com
+struct IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A_marshaled_com
 {
 	uint32_t ___Width_0;
 	uint32_t ___Height_1;
@@ -7332,7 +7332,7 @@ struct Params_tC8A448216B074E1345B6A3E20F5C5A1FC47D11AE_marshaled_com
 	int32_t ___Sorted_5;
 };
 
-struct MLCameraPlaneInfo_t8DB25C0DF2E72448ADF52AF607D75EF36C97F4C7 
+struct MLCameraPlaneInfo_t8070B68043C3CAA9C964DCCD7D6E20374018DA68 
 {
 	uint32_t ___Version_0;
 	uint32_t ___Width_1;
@@ -7484,10 +7484,10 @@ struct Nullable_1_t4F11BA1306120798159EC97ABA03E6731032A09F
 	XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 ___value_1;
 };
 
-struct Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD 
+struct Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 
 {
 	bool ___hasValue_0;
-	IntrinsicCalibrationParameters_t55FFB05999500D9FA06F160E086A3BEC964EEE5B ___value_1;
+	IntrinsicCalibrationParameters_tFE38D188257A5A765C00D0953E5D058466AECD2A ___value_1;
 };
 
 struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
@@ -8945,23 +8945,23 @@ struct XRPassCreateInfo_tBB279E651A4D9CBEB6A76FCBB138D7AB7A05DCA1_marshaled_com
 	XRRenderPass_t9E8711E8C69E3917AA39A0CA8304B604ED2838E8_marshaled_com ___xrSdkRenderPass_8;
 };
 
-struct ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA 
+struct ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 
 {
 	int64_t ___FrameNumber_0;
 	MLTime_t21DC48B1883458CA7A85FD9DDF8A217EC9559DCB* ___VCamTimestamp_1;
-	Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD ___Intrinsics_2;
+	Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 ___Intrinsics_2;
 };
-struct ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA_marshaled_pinvoke
+struct ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22_marshaled_pinvoke
 {
 	int64_t ___FrameNumber_0;
 	MLTime_t21DC48B1883458CA7A85FD9DDF8A217EC9559DCB* ___VCamTimestamp_1;
-	Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD ___Intrinsics_2;
+	Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 ___Intrinsics_2;
 };
-struct ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA_marshaled_com
+struct ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22_marshaled_com
 {
 	int64_t ___FrameNumber_0;
 	MLTime_t21DC48B1883458CA7A85FD9DDF8A217EC9559DCB* ___VCamTimestamp_1;
-	Nullable_1_t70EA0E2D7B8F80F87B2970445A9D51440BE880FD ___Intrinsics_2;
+	Nullable_1_t0F41838B85FCBF5222B0BD779658A2C6B35CD494 ___Intrinsics_2;
 };
 
 struct SerializablePVBakeSettings_t9C88167788303739AC5D93A20092598DF654A452 
@@ -13113,7 +13113,7 @@ static  uint8_t UnresolvedStaticCall_497 (RuntimeObject* p1, JsonValue_t01DB3202
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedStaticCall_498 (RuntimeObject* p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, const RuntimeMethod* method)
+static  uint8_t UnresolvedStaticCall_498 (RuntimeObject* p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2};
 	uint8_t il2cppRetVal;
@@ -14905,21 +14905,21 @@ static  uint8_t UnresolvedVirtualCall_689 (RuntimeObject* __this, Anchor_t31F76F
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedVirtualCall_690 (RuntimeObject* __this, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, const RuntimeMethod* method)
+static  uint8_t UnresolvedVirtualCall_690 (RuntimeObject* __this, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	uint8_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedStaticCall_690 (StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, const RuntimeMethod* method)
+static  uint8_t UnresolvedStaticCall_690 (StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	uint8_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedVirtualCall_691 (RuntimeObject* __this, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, const RuntimeMethod* method)
+static  uint8_t UnresolvedVirtualCall_691 (RuntimeObject* __this, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	uint8_t il2cppRetVal;
@@ -19558,14 +19558,14 @@ static  int32_t UnresolvedStaticCall_1233 (RuntimeObject* p1, JsonValue_t01DB320
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedVirtualCall_1234 (RuntimeObject* __this, RuntimeObject* p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, int32_t p3, int32_t p4, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_1234 (RuntimeObject* __this, RuntimeObject* p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, int32_t p3, int32_t p4, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2,&p3,&p4};
 	int32_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedStaticCall_1235 (RuntimeObject* p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p3, const RuntimeMethod* method)
+static  int32_t UnresolvedStaticCall_1235 (RuntimeObject* p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p3, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2,&p3};
 	int32_t il2cppRetVal;
@@ -21469,21 +21469,21 @@ static  int32_t UnresolvedVirtualCall_1447 (RuntimeObject* __this, Anchor_t31F76
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedVirtualCall_1448 (RuntimeObject* __this, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_1448 (RuntimeObject* __this, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	int32_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedVirtualCall_1449 (RuntimeObject* __this, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_1449 (RuntimeObject* __this, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	int32_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedStaticCall_1449 (StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, const RuntimeMethod* method)
+static  int32_t UnresolvedStaticCall_1449 (StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	int32_t il2cppRetVal;
@@ -28499,7 +28499,7 @@ static  void UnresolvedStaticCall_2240 (RuntimeObject* p1, RuntimeObject* p2, Ve
 	void* args[] = {p1,p2,&p3};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedStaticCall_2241 (RuntimeObject* p1, RuntimeObject* p2, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p3, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2241 (RuntimeObject* p1, RuntimeObject* p2, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p3, const RuntimeMethod* method)
 {
 	void* args[] = {p1,p2,&p3};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
@@ -29109,22 +29109,22 @@ static  void UnresolvedStaticCall_2346 (RuntimeObject* p1, Buffer_tDD533DFFFDE1E
 	void* args[] = {p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedStaticCall_2347 (RuntimeObject* p1, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 p2, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p3, RuntimeObject* p4, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2347 (RuntimeObject* p1, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 p2, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p3, RuntimeObject* p4, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2,&p3,p4};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedVirtualCall_2348 (RuntimeObject* __this, RuntimeObject* p1, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_2348 (RuntimeObject* __this, RuntimeObject* p1, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p2, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedStaticCall_2348 (RuntimeObject* p1, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p2, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2348 (RuntimeObject* p1, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p2, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedStaticCall_2349 (RuntimeObject* p1, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p2, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2349 (RuntimeObject* p1, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p2, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
@@ -30519,37 +30519,37 @@ static  void UnresolvedStaticCall_2529 (Buffer_tDD533DFFFDE1EAD35D2F9331EA7B0AD9
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedVirtualCall_2530 (RuntimeObject* __this, CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 p1, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p2, RuntimeObject* p3, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_2530 (RuntimeObject* __this, CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 p1, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p2, RuntimeObject* p3, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2,p3};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedStaticCall_2530 (CameraOutput_tC5F6BFB6AEBE4C58673BF998552AFA5F16BD2446 p1, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p2, RuntimeObject* p3, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2530 (CameraOutput_t8B1F06D001DD410AB92E0E6475AA1DD16E017399 p1, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p2, RuntimeObject* p3, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2,p3};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedVirtualCall_2531 (RuntimeObject* __this, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_2531 (RuntimeObject* __this, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedInstanceCall_2531 (void* __this, ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p1, const RuntimeMethod* method)
+static  void UnresolvedInstanceCall_2531 (void* __this, ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedStaticCall_2531 (ResultExtras_t581209FF2C7A17268DB27F5ACA24989B4BC9A1FA p1, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2531 (ResultExtras_t10CFC0CB320D22E48486E9F1955F49F6AA09CC22 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedVirtualCall_2532 (RuntimeObject* __this, StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_2532 (RuntimeObject* __this, StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedStaticCall_2532 (StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 p1, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_2532 (StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
@@ -31455,16 +31455,16 @@ static  LightMeshVertex_t5E886C7928458EB522BEB49D43C67ACC09EC7DCB UnresolvedStat
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 UnresolvedVirtualCall_2636 (RuntimeObject* __this, const RuntimeMethod* method)
+static  StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 UnresolvedVirtualCall_2636 (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 il2cppRetVal;
+	StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, NULL, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 UnresolvedVirtualCall_2637 (RuntimeObject* __this, int32_t p1, const RuntimeMethod* method)
+static  StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 UnresolvedVirtualCall_2637 (RuntimeObject* __this, int32_t p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
-	StreamCapability_t7E3FFC3BFF27D1CAE971780913DFD14259A7A652 il2cppRetVal;
+	StreamCapability_tE46ED89565F76F58DAF575D8BB9D52E18D8E1062 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
@@ -31981,9 +31981,9 @@ static  InstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D UnresolvedVirt
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  MLCameraPlaneInfo_t8DB25C0DF2E72448ADF52AF607D75EF36C97F4C7 UnresolvedVirtualCall_2717 (RuntimeObject* __this, const RuntimeMethod* method)
+static  MLCameraPlaneInfo_t8070B68043C3CAA9C964DCCD7D6E20374018DA68 UnresolvedVirtualCall_2717 (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	MLCameraPlaneInfo_t8DB25C0DF2E72448ADF52AF607D75EF36C97F4C7 il2cppRetVal;
+	MLCameraPlaneInfo_t8070B68043C3CAA9C964DCCD7D6E20374018DA68 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, NULL, &il2cppRetVal);
 	return il2cppRetVal;
 }
