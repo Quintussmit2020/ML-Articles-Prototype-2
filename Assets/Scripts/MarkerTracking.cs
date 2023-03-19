@@ -15,15 +15,22 @@ public class MarkerTracking : MonoBehaviour
     public MLMarkerTracker.ArucoDictionaryName ArucoDict = MLMarkerTracker.ArucoDictionaryName.DICT_5X5_100;
     private Dictionary<string, GameObject> _markers = new Dictionary<string, GameObject>();
     private ASCIIEncoding _asciiEncoder = new System.Text.ASCIIEncoding();
+
+    [Tooltip("The object that will be instantiated.")]
     public GameObject trackerObject;
+    [Tooltip("This is the object that will act as the segmented dimmer object.")]
     public GameObject dimmerObject;
+    [Tooltip("A string that will be used to define the individual marker. Your marker needs to return the same string.")]
     public string markerID;
 
+    //bool to check if scanning should be active or not
     private bool isScanning;
 
+    //Start the ML inputs and controller actions
     private MagicLeapInputs magicLeapInputs;
     private MagicLeapInputs.ControllerActions controllerActions;
 
+    // Permission checking properties
     private readonly MLPermissions.Callbacks permissionCallbacks = new MLPermissions.Callbacks();
 
 
