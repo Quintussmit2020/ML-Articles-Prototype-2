@@ -17,6 +17,9 @@ public class MarkerTracking : MonoBehaviour
     private ASCIIEncoding _asciiEncoder = new System.Text.ASCIIEncoding();
     public GameObject trackerObject;
     public GameObject dimmerObject;
+    public string markerID;
+
+    private bool isScanning;
 
     private MagicLeapInputs magicLeapInputs;
     private MagicLeapInputs.ControllerActions controllerActions;
@@ -70,7 +73,32 @@ public class MarkerTracking : MonoBehaviour
 
     private void Trigger_performed(InputAction.CallbackContext obj)
     {
-        _ = MLMarkerTracker.StopScanningAsync();
+        isScanning = !isScanning;
+        if (isScanning)
+        {
+            _ = MLMarkerTracker.StopScanningAsync();
+            Debug.Log("Tracking off");
+        }
+        else
+        {
+            _ = MLMarkerTracker.StartScanningAsync();
+            Debug.Log("Tracking on");
+        }
+  
+    }
+
+    //Create a public void that will stop and start tracking when the object is selected via XRI (trigger pull)
+    public void ObjectSelected()
+    {
+        isScanning = !isScanning;
+        if (isScanning)
+        {
+            _ = MLMarkerTracker.StopScanningAsync();
+        }
+        else
+        {
+            _ = MLMarkerTracker.StartScanningAsync();
+        }
     }
 
     private void OnDisable()
@@ -103,21 +131,18 @@ public class MarkerTracking : MonoBehaviour
             {
                 GameObject marker = _markers[id];
                 marker.transform.position = data.Pose.position;
-                marker.transform.rotation = data.Pose.rotation;
-                
+                marker.transform.rotation = data.Pose.rotation;        
             }
             else
             {
-                //Create a primitive cube
-                //GameObject marker = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                //Render the cube with the default URP shader
-                //marker.AddComponent<Renderer>();
-                //marker.GetComponent<Renderer>().material = new Material(Shader.Find("Universal Render Pipeline/Lit"));
-                trackerObject.transform.localScale = new Vector3(markerSize, markerSize, markerSize);
-                trackerObject.SetActive(true);
-                _markers.Add(id, trackerObject);
-                Debug.Log("Marker Found");
-               
+                if (id == markerID)
+                {
+                    trackerObject.transform.localScale = new Vector3(markerSize, markerSize, markerSize);
+                    trackerObject.SetActive(true);
+                    _markers.Add(id, trackerObject);
+                    Debug.Log("Marker Found");
+                    Debug.Log("Marker ID data is " + id);
+                }
             }
         }
     }

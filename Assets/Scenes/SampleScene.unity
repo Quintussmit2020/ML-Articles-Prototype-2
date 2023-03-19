@@ -135,13 +135,13 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 228397591}
+    m_TransformParent: {fileID: 1124732204}
     m_Modifications:
     - target: {fileID: 914071721195498252, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4da0cef9af65c734f96c85961fccd05b, type: 3}
+      objectReference: {fileID: 8300000, guid: a54337c14c4f04f748be561ba3b740d8, type: 3}
     - target: {fileID: 914071721195498252, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
@@ -154,38 +154,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.49999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.029182553
+      value: 0.1988182
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.10245136
+      value: -0.3348683
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.15713133
+      value: -0.12045118
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.0000021010626
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0000006407499
+      value: -0.0000020712623
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7071052
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.70710844
       objectReference: {fileID: 0}
     - target: {fileID: 914071721195498254, guid: 8612bfc0b7dee17458a407f682cc565a,
         type: 3}
@@ -358,11 +373,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2047174020870830786, guid: b3f805aa725fe5041860b3a8401c9130,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 207147541}
-    - targetCorrespondingSourceObject: {fileID: 2047174020870830786, guid: b3f805aa725fe5041860b3a8401c9130,
+      addedObject: {fileID: 871263447}
+    - targetCorrespondingSourceObject: {fileID: 4603382138939496917, guid: b3f805aa725fe5041860b3a8401c9130,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 871263447}
+      addedObject: {fileID: 207147541}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3040594077323036881, guid: b3f805aa725fe5041860b3a8401c9130,
         type: 3}
@@ -1295,6 +1310,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 871263446}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1124732204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4603382138939496917, guid: b3f805aa725fe5041860b3a8401c9130,
+    type: 3}
+  m_PrefabInstance: {fileID: 228397590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1375737368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,10 +1888,11 @@ MonoBehaviour:
   QrCodeMarkerSize: 0.1
   ArucoMarkerSize: 0.1
   Type: 2
-  ArucoDict: 4
+  ArucoDict: 5
   trackerObject: {fileID: 1964602097}
   dimmerObject: {fileID: 1629126442791580175, guid: 99163626dde4d8d43bd953fd8829445c,
     type: 3}
+  markerID: 12
 --- !u!4 &1523101410
 Transform:
   m_ObjectHideFlags: 0
@@ -1894,9 +1916,24 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5589497132288526104, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589497132288526105, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5589497132288526105, guid: fe799b2d0a84dfe43b001b56276fd2fb,
         type: 3}
       propertyPath: m_UseForceGrab
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589497132288526111, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5589497133034083132, guid: fe799b2d0a84dfe43b001b56276fd2fb,
