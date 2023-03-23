@@ -12,14 +12,21 @@
 
 
 
+extern void AudioSettings_SetConfiguration_m23590EFC835CF67DC0972681ACBBBBED0881117E (void);
 extern void AudioSettings_GetSampleRate_mF571145D34E609D5F0F8C232FB9FDCCCC521F2A5 (void);
 extern void AudioSettings_get_outputSampleRate_mEACF8FD7BFDFBD76EB8FC7E438B3AF19DB57BC6D (void);
 extern void AudioSettings_GetDSPBufferSize_mA02A8E7960F597D6F6CE6402B59410B51EC32F59 (void);
+extern void AudioSettings_GetConfiguration_mDA005BAD9577EBBE375F6D6C040D7F110508C910 (void);
+extern void AudioSettings_Reset_mA15BD1F6C3A6C78D85845D3D86C4271559A12D75 (void);
+extern void AudioSettings_add_OnAudioConfigurationChanged_m53F7FD8FF545E23217D2271424843E27AF31585F (void);
+extern void AudioSettings_remove_OnAudioConfigurationChanged_mA9CB4575FC75DF3761B8AA0D0259A1255FFF908D (void);
 extern void AudioSettings_InvokeOnAudioConfigurationChanged_m8273D3AEB24F4C3E374238B6F699BE6696808E85 (void);
 extern void AudioSettings_InvokeOnAudioSystemShuttingDown_m1B9895D60B3267EBDEC69B9169730DBAD8325E90 (void);
 extern void AudioSettings_InvokeOnAudioSystemStartedUp_m7FE042936237E5BDCB20299D8C4CF583B661468C (void);
 extern void AudioSettings_StartAudioOutput_mB04D851DD0E6115DEEFB55779F880146263C67BE (void);
 extern void AudioSettings_StopAudioOutput_m3FE7A8EADAB2FB570BB05F7C353E25E15885D1CB (void);
+extern void AudioSettings_SetConfiguration_Injected_mCA4F9A7C9034332E10425C289E6DCDA12EEE432F (void);
+extern void AudioSettings_GetConfiguration_Injected_m74228B679C071A70B4C5F7C46A88AFC046B9F8DA (void);
 extern void AudioConfigurationChangeHandler__ctor_mA9827AB9472EC8EE0A0F0FC24EBC06B4740DD944 (void);
 extern void AudioConfigurationChangeHandler_Invoke_m4DC27DD11512481B60071B20284E6886DAE54DE2 (void);
 extern void Mobile_get_muteState_m64C1E8C61537317A7F153E1A72F7D39D85DA684D (void);
@@ -76,16 +83,23 @@ extern void AudioSampleProvider_InvokeSampleFramesAvailable_mEB16F7230AB65A3576B
 extern void AudioSampleProvider_InvokeSampleFramesOverflow_m66593173A527981F5EB2A5EF77B0C9119DAB5E15 (void);
 extern void SampleFramesHandler__ctor_m7DDE0BAD439CD80791140C7D42D661B598A7663A (void);
 extern void SampleFramesHandler_Invoke_m478D5645634B8C734E58B59CF7750797FC54F1BC (void);
-static Il2CppMethodPointer s_methodPointers[64] = 
+static Il2CppMethodPointer s_methodPointers[71] = 
 {
+	AudioSettings_SetConfiguration_m23590EFC835CF67DC0972681ACBBBBED0881117E,
 	AudioSettings_GetSampleRate_mF571145D34E609D5F0F8C232FB9FDCCCC521F2A5,
 	AudioSettings_get_outputSampleRate_mEACF8FD7BFDFBD76EB8FC7E438B3AF19DB57BC6D,
 	AudioSettings_GetDSPBufferSize_mA02A8E7960F597D6F6CE6402B59410B51EC32F59,
+	AudioSettings_GetConfiguration_mDA005BAD9577EBBE375F6D6C040D7F110508C910,
+	AudioSettings_Reset_mA15BD1F6C3A6C78D85845D3D86C4271559A12D75,
+	AudioSettings_add_OnAudioConfigurationChanged_m53F7FD8FF545E23217D2271424843E27AF31585F,
+	AudioSettings_remove_OnAudioConfigurationChanged_mA9CB4575FC75DF3761B8AA0D0259A1255FFF908D,
 	AudioSettings_InvokeOnAudioConfigurationChanged_m8273D3AEB24F4C3E374238B6F699BE6696808E85,
 	AudioSettings_InvokeOnAudioSystemShuttingDown_m1B9895D60B3267EBDEC69B9169730DBAD8325E90,
 	AudioSettings_InvokeOnAudioSystemStartedUp_m7FE042936237E5BDCB20299D8C4CF583B661468C,
 	AudioSettings_StartAudioOutput_mB04D851DD0E6115DEEFB55779F880146263C67BE,
 	AudioSettings_StopAudioOutput_m3FE7A8EADAB2FB570BB05F7C353E25E15885D1CB,
+	AudioSettings_SetConfiguration_Injected_mCA4F9A7C9034332E10425C289E6DCDA12EEE432F,
+	AudioSettings_GetConfiguration_Injected_m74228B679C071A70B4C5F7C46A88AFC046B9F8DA,
 	AudioConfigurationChangeHandler__ctor_mA9827AB9472EC8EE0A0F0FC24EBC06B4740DD944,
 	AudioConfigurationChangeHandler_Invoke_m4DC27DD11512481B60071B20284E6886DAE54DE2,
 	Mobile_get_muteState_m64C1E8C61537317A7F153E1A72F7D39D85DA684D,
@@ -149,33 +163,40 @@ extern void AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41
 extern void AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000039, AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk },
-	{ 0x0600003A, AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk },
-	{ 0x0600003B, AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk },
-	{ 0x0600003C, AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk },
+	{ 0x06000040, AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk },
+	{ 0x06000041, AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk },
+	{ 0x06000042, AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk },
+	{ 0x06000043, AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[64] = 
+static const int32_t s_InvokerIndices[71] = 
 {
-	16391,
-	16391,
-	13725,
-	15470,
-	16462,
-	16462,
-	16363,
-	16363,
+	14828,
+	16394,
+	16394,
+	13726,
+	16356,
+	14828,
+	15486,
+	15486,
+	15472,
+	16465,
+	16465,
+	16366,
+	16366,
+	14827,
+	15471,
 	3949,
 	7160,
-	16363,
-	15470,
-	16363,
-	15470,
-	16363,
-	16462,
-	16462,
+	16366,
+	15472,
+	16366,
+	15472,
+	16366,
+	16465,
+	16465,
 	9411,
 	10893,
-	16404,
+	16407,
 	9284,
 	671,
 	9234,
@@ -194,8 +215,8 @@ static const int32_t s_InvokerIndices[64] =
 	7288,
 	3949,
 	7239,
-	13875,
-	12386,
+	13876,
+	12387,
 	7160,
 	7288,
 	9411,
@@ -225,7 +246,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModul
 const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule = 
 {
 	"UnityEngine.AudioModule.dll",
-	64,
+	71,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

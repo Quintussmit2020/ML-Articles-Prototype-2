@@ -14,6 +14,8 @@
 
 extern void HandTrackingInputExample_Start_mC164A347959920A079BE308F62947AE19EF50200 (void);
 extern void HandTrackingInputExample__ctor_m172CA3066650F6B7A2EA988C41131080D483AC91 (void);
+extern void KeepUpright_Start_m1B7C4243A60894CBA608D2280611D13E2CC91115 (void);
+extern void KeepUpright__ctor_m139A580979EC469564DA9ABFAC2E7F32BA54F1BB (void);
 extern void MarkerTracking_Awake_m2B87E2F3F04C844EE8967546A851759AFE5A9A48 (void);
 extern void MarkerTracking_OnDestroy_m13879B6A93EE936D9CFF21E9C8F87074A8E71D78 (void);
 extern void MarkerTracking_OnEnable_m492F19E9FDB84D20F0DD633AFA5759E817B66BC7 (void);
@@ -117,10 +119,12 @@ extern void HandVisualizer_GetFingerBones_m8137EF9190765188F937E2723ECD534433EEF
 extern void HandVisualizer_Initialize_m56B2F504E02AF19955E262D49B87595FBE93B71E (void);
 extern void HandVisualizer_CreateKeyPoint_m63B38CE711C18FFCFB5BB5304400A1D8B44275FC (void);
 extern void HandVisualizer__ctor_mCC2B6923378D60540C16AEBB96AA6A33F4D1098D (void);
-static Il2CppMethodPointer s_methodPointers[105] = 
+static Il2CppMethodPointer s_methodPointers[107] = 
 {
 	HandTrackingInputExample_Start_mC164A347959920A079BE308F62947AE19EF50200,
 	HandTrackingInputExample__ctor_m172CA3066650F6B7A2EA988C41131080D483AC91,
+	KeepUpright_Start_m1B7C4243A60894CBA608D2280611D13E2CC91115,
+	KeepUpright__ctor_m139A580979EC469564DA9ABFAC2E7F32BA54F1BB,
 	MarkerTracking_Awake_m2B87E2F3F04C844EE8967546A851759AFE5A9A48,
 	MarkerTracking_OnDestroy_m13879B6A93EE936D9CFF21E9C8F87074A8E71D78,
 	MarkerTracking_OnEnable_m492F19E9FDB84D20F0DD633AFA5759E817B66BC7,
@@ -225,8 +229,10 @@ static Il2CppMethodPointer s_methodPointers[105] =
 	HandVisualizer_CreateKeyPoint_m63B38CE711C18FFCFB5BB5304400A1D8B44275FC,
 	HandVisualizer__ctor_mCC2B6923378D60540C16AEBB96AA6A33F4D1098D,
 };
-static const int32_t s_InvokerIndices[105] = 
+static const int32_t s_InvokerIndices[107] = 
 {
+	9411,
+	9411,
 	9411,
 	9411,
 	9411,
@@ -248,8 +254,8 @@ static const int32_t s_InvokerIndices[105] =
 	9297,
 	9151,
 	9411,
-	16363,
-	16404,
+	16366,
+	16407,
 	9411,
 	9411,
 	9411,
@@ -337,7 +343,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	105,
+	107,
 	s_methodPointers,
 	0,
 	NULL,

@@ -205,7 +205,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
---root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Soundfield.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
@@ -432,7 +431,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
---root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Soundfield.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --root-assembly=C:\Repositories\Github\ML2 Articles Prototype 2\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll

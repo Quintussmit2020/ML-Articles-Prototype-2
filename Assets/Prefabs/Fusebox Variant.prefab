@@ -200,6 +200,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2408860142704594328}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7667094750079117589}
     - targetCorrespondingSourceObject: {fileID: -4735377502365667310, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}
       insertIndex: -1
@@ -415,6 +419,18 @@ MonoBehaviour:
       max: 1
       tooltip: Turns on/off Acoustic Mapping.
       label: Enable Acoustic Map
+--- !u!114 &7667094750079117589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040594077323036881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183682aeb05e7d345a4d44f1caa6d932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7447615000974090698 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4735377502365667310, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
